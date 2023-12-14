@@ -24,8 +24,12 @@ export const Orders = async () => {
     const divStringArray = orders.map(
         (orders) => {
             const orderPrice = orders.color.price + orders.interior.price + orders.technologies.price + orders.wheels.price
+            
+
             return `<section class="ordersPlaced">
-            <div>Order #${orders.id} cost $${orderPrice}</div>
+            <div>Order #${orders.id} cost ${orderPrice.toLocaleString("en-US",{
+                style: "currency",
+                currency: "USD"})}</div>
             
             </section>`
         }
