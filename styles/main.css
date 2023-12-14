@@ -1,0 +1,37 @@
+.choices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.paint {
+    width: 250px;
+    height: 150px;
+}
+
+.interior {
+    width: 250px;
+    height: 150px;
+}
+
+.technologies {
+    width: 250px;
+    height: 150px;
+}
+
+.wheels {
+    width: 250px;
+    height: 150px;
+}
+
+.order {
+    padding: 25px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.ordersPlaced{
+    padding: 5px
+}

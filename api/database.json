@@ -1,0 +1,155 @@
+{
+  "colors": [
+    {
+      "id": 1,
+      "name": "Silver",
+      "price": 350
+    },
+    {
+      "id": 2,
+      "name": "Midnight Blue",
+      "price": 380
+    },
+    {
+      "id": 3,
+      "name": "Firebrick Red",
+      "price": 400
+    },
+    {
+      "id": 4,
+      "name": "Spring Green",
+      "price": 370
+    }
+  ],
+  "interiors": [
+    {
+      "id": 1,
+      "name": "Beige Fabric",
+      "price": 500
+    },
+    {
+      "id": 2,
+      "name": "Charcoal Fabric",
+      "price": 800
+    },
+    {
+      "id": 3,
+      "name": "White Leather",
+      "price": 1500
+    },
+    {
+      "id": 4,
+      "name": "Black Leather",
+      "price": 1200
+    }
+  ],
+  "technologies": [
+    {
+      "id": 1,
+      "name": "Basic Package",
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "name": "Navigation Package",
+      "price": 2500
+    },
+    {
+      "id": 3,
+      "name": "Visibility Package",
+      "price": 4000
+    },
+    {
+      "id": 4,
+      "name": "Ultra Package",
+      "price": 6000
+    }
+  ],
+  "wheels": [
+    {
+      "id": 1,
+      "name": "17-inch Pair Radial",
+      "price": 300
+    },
+    {
+      "id": 2,
+      "name": "17-inch Pair Radial Black",
+      "price": 800
+    },
+    {
+      "id": 3,
+      "name": "18-inch Pair Spoke Silver",
+      "price": 2000
+    },
+    {
+      "id": 4,
+      "name": "18-inch Pair Spoke Black",
+      "price": 3000
+    }
+  ],
+  "orders": [
+    {
+      "colorId": 1,
+      "interiorId": 2,
+      "technologiesId": 3,
+      "wheelsId": 3,
+      "id": 1
+    },
+    {
+      "colorId": 3,
+      "interiorId": 4,
+      "technologiesId": 2,
+      "wheelsId": 1,
+      "id": 2
+    },
+    {
+      "colorId": 2,
+      "interiorId": 3,
+      "technologiesId": 3,
+      "wheelsId": 1,
+      "id": 3
+    },
+    {
+      "colorId": 3,
+      "interiorId": 3,
+      "technologiesId": 3,
+      "wheelsId": 3,
+      "id": 4
+    },
+    {
+      "colorId": 1,
+      "interiorId": 3,
+      "technologiesId": 4,
+      "wheelsId": 2,
+      "id": 5
+    },
+    {
+      "colorId": 1,
+      "interiorId": 2,
+      "technologiesId": 3,
+      "wheelsId": 4,
+      "id": 6
+    },
+    {
+      "colorId": 1,
+      "interiorId": 3,
+      "technologiesId": 1,
+      "wheelsId": 1,
+      "id": 7
+    },
+    {
+      "colorId": 1,
+      "interiorId": 3,
+      "technologiesId": 1,
+      "wheelsId": 1,
+      "id": 8
+    },
+    {
+      "colorId": 1,
+      "interiorId": 2,
+      "technologiesId": 4,
+      "wheelsId": 1,
+      "id": 9
+    }
+  ]
+}
